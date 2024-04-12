@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="alejandro.murcia.app_draw_menu_alejandro_murcia.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="alejandro.murcia.app_draw_menu_alejandro_murcia.ui.gallery.GalleryFragment"
+        android:label="Información"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="alejandro.murcia.app_draw_menu_alejandro_murcia.ui.slideshow.SlideshowFragment"
+        android:label="Notas"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_configuracion"
+        android:name="alejandro.murcia.app_draw_menu_alejandro_murcia.fragment_configuracion"
+        android:label="Códigos"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/fragment_perfil"
+        android:name="alejandro.murcia.app_draw_menu_alejandro_murcia.fragment_perfil"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>
